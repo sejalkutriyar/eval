@@ -87,4 +87,3 @@ router.delete('/:id', async (req, res) => {
     }
 });
 module.exports = router;
-// This code defines an Express router for handling recipe-related API requests. It includes routes for creating, reading, updating, and deleting recipes, as well as filtering recipes based on title, ingredients, and cooking time. The router interacts with a MongoDB database using Mongoose to perform CRUD operations on the Recipe model.
